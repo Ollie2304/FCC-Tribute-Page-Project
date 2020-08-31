@@ -2,6 +2,18 @@
     text-align: center;
 }
 
-#img-div{
-    text-align: center;
+#img-div {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+#image {
+    max-width: 500px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 15px;
 }
