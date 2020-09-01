@@ -1,5 +1,13 @@
 #title {
     text-align: center;
+    background-color: #fff;
+    border-width: 10px;
+    border-color: black;
+    border-style: ridge;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+    font-family: sans-serif;
 }
 
 body {
@@ -20,7 +28,7 @@ body {
 }
 
 #image {
-    max-width: 500px;
+    max-width: 400px;
     display: block;
     height: auto;
     margin: 0 auto;
@@ -29,5 +37,44 @@ body {
 #img-caption {
     margin-top: 15px;
     margin-bottom: 50px;
+    background-color: #fff;
 }
 
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#info1 {
+    background-color: #fff;
+    border-width: 7px;
+    border-color: black;
+    border-style: dotted;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+#info2 {
+    background-color: #fff;
+    border-width: 7px;
+    border-color: black;
+    border-style: dotted;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.ul {
+    line-height: 10px;
+}
+
+
+#tribute-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
